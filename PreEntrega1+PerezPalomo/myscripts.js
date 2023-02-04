@@ -35,3 +35,9 @@ function despedida() {
 }
 
 despedida()
+
+for (let i = 1; i <=5; i++) {
+    let pregunta = prompt("Escribe 'si' para saber que numero de visitante eres en este sitio");
+    alert("Eres el visitante numero " + i);
+    
+}
